@@ -1,1 +1,8 @@
-1. comptuer chooses random letter 2. User chooses random value in list a-z. 3. We determine if user is correct or not *computer displays guess *if guess is correct change win count up by 1 *if guess is wrong change score by minus 1 *display guess in a list
+/* 
+1. comptuer chooses random letter 
+2. User chooses random value in list a-z. 
+3. We determine if user is correct or not 
+    *computer displays guess 
+    *if guess is correct change win count up by 1 
+    *if guess is wrong change score by minus 1 
+    *display guess in a list */
