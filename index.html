@@ -10,20 +10,19 @@
 
 <body>
     <h1>The Psychic Game</h1>
-
-    <p>Guess what letter I'm thinking of</p>
-
-    <script>
-        var score = 0;
-        var wins = 0;
-        var losses = 0;
-        var guessesLeft = 9;
-        var guessesSoFar = ;
-
-        document.onkeypress = function(event) {
-            var userInput = event.key.toLowerCase();
-        }
-    </script>
+    <div id="letter">
+        <p>Guess what letter I'm thinking of</h3>
+    </div>
+    <div id="wins">
+        <p>wins:</p>
+    </div>
+    <div id="losses">
+        <p>losses:</p>
+    </div>
+    <div id="guesses">
+        <p>guesses:</p>
+    </div>
+    <script src="javascript/game.js"></script>
 </body>
 
 </html>
